@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
     submitForm.addEventListener("submit", function (event) {
         event.preventDefault();
         addBook();
-
         document.getElementById("inputBookTitle").value = "";
         document.getElementById("inputBookAuthor").value = "";
         document.getElementById("inputBookYear").value = "";
